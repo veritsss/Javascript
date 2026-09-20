@@ -11,9 +11,10 @@ const producto = {
 //console.log(producto.precio); // accedemos a una propiedad de un objeto, en este caso nos mostrará en la consola el valor de precio
 //console.log(producto["precio"]); // es lo mismo que la anterior pero menos usada
 
-// Agregar nuevas propiedades
-producto.imagen = "imagen.jpg"; // Se añade una nueva caracteristica al objeto 'producto'
+// Agregar nuevas propiedades o modificar una existente
 
+producto.imagen = "imagen.jpg"; // Se añade una nueva caracteristica al objeto 'producto'.
+producto.precio = 200; // Se modifica una caracteristica existente de nuestro objeto, en este caso se modifica el precio.
 // Eliminar propiedades
 delete producto.disponible;
 
