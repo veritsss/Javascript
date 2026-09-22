@@ -42,6 +42,9 @@ meses.pop(); // Elimina el ultimo valor de un arreglo
 
 meses.shift(); // Elimina el primer valor de un arreglo
 
+
+meses.splice(3, 0, 'Abril'); // Insertamos 'Abril' en la posición 3, el 0 quiere decir que no eliminamos nada.
+
 meses.splice(2, 1); // Elimina un valor en especifico, el primer valor (2) es el indice del elemento que se quiere eliminar y el segundo valor (1) es cuantos elementos incluyendo a ese se deben eliminar
 
 console.table(meses);
