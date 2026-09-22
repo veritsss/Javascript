@@ -1,5 +1,7 @@
 // Variables con const (a diferencia de LET y VAR no se pueden inicializar sin un valor), Tampoco se puede reasignar un valor.
 
+// estas variables se ponen como LET porque las const no se pueden modificar, son constantes.
+
 let producto = "Audifonos Gamer"; //Primero se crea la variable luego se le asigna un nombre y finalmente se le asigna un valor
 
 let disponible = true; // variable sin valor, no se suelen dejar sin valor a menos que le vayas a agregar un valor despues

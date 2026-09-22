@@ -4,7 +4,7 @@ var producto = "Audifonos Gamer"; //Primero se crea la variable luego se le asig
 
 var disponible; // variable sin valor, no se suelen dejar sin valor a menos que le vayas a agregar un valor despues
 
-producto = true; // cambiamos el valor de la variable
+producto = true; // reasignando el valor de la variable
 
 disponible = true; // agregar el valor true a la variable creada anteriormente
 
@@ -15,12 +15,9 @@ var producto1 = 'computadora',
     disponible1 = true,
     categoria = 'computadoras';
 
-    
-var disponible_;
-
 
 // Estilos para las variables
-var nombre_Producto = 'Monitor HD'; // Underscore
+var nombre_producto = 'Monitor HD'; // Underscore
 var nombreProducto = 'Monitor HD'; // Camelcase (la mas utilizada para desarrollar)
 var NombreProducto = 'Monitor HD'; // Pascal Case
 var nombreproducto = 'Monitor HD';

@@ -1,4 +1,5 @@
 // Variables con LET
+// No hay diferencias con Var
 
 let producto = "Audifonos Gamer"; //Primero se crea la variable luego se le asigna un nombre y finalmente se le asigna un valor
 

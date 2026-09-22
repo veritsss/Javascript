@@ -2,8 +2,8 @@
 
 let resultado;
 resultado = (20 + 30) * 2;
-resultado = (100 + 200 + 300) * 0.2; // para añadir un 20% extra.
-
+resultado = (100 + 200 + 300) * 0.2; // para calcular el 20% del total.
+resultado = (100 + 200 + 300) * 1.2; // para añadir un 20% al total .
 console.log(resultado);
 
 // Incrementos
